@@ -6,8 +6,12 @@ Ce projet utilise des modèles de Machine Learning pour prédire la survie des p
 Le dataset utilisé contient des informations sur les passagers, comme l'âge, le sexe, la classe du billet et le tarif payé. Ces données ont été nettoyées et prétraitées avant d'entraîner les modèles.
 ## Modèles Testés
 Nous avons testé plusieurs modèles :
-- **Régression Logistique** - **SVM** - **KNN** - **XGBoost** - **Random Forest**
- Résultats
+- **Régression Logistique**
+- **SVM**
+- **KNN**
+- **XGBoost**
+- **Random Forest**
+## Résultats
 Le tableau ci-dessous résume les performances des modèles :
 | Modèle                  | Accuracy | Précision | Recall | F1-Score | ROC-AUC |
 |-------------------------|----------|-----------|--------|----------|---------|
@@ -19,9 +23,7 @@ Le tableau ci-dessous résume les performances des modèles :
 Le **Random Forest** est le modèle le plus performant avec une **accuracy de 83.80%** et un **F1-score de 79.43%**.
 ## Prédictions sur de nouvelles données
 Le modèle Random Forest a été utilisé pour prédire la survie des passagers sur un dataset test (`test.csv`). Les prédictions sont enregistrées dans un fichier `submission.csv`.
- Exécution du Projet
+## Exécution du Projet
 **Installation des dépendances :**
 ```bash
 pip install pandas numpy scikit-learn xgboost seaborn matplotlib
-
-
