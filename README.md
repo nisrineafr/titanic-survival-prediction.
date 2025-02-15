@@ -1,13 +1,13 @@
 # Titanic Survival Prediction
 Titanic Survival Prediction - Ce projet utilise plusieurs algorithmes de machine learning (Régression Logistique, SVM, KNN, XGBoost, Random Forest) pour prédire la survie des passagers du Titanic. Il inclut le prétraitement des données, l'entraînement des modèles et la comparaison des performances.
-## Introduction
+Introduction
 Ce projet utilise des modèles de Machine Learning pour prédire la survie des passagers du Titanic en fonction de différentes caractéristiques (âge, sexe, classe de voyage, etc.). L'objectif est de comparer plusieurs modèles et de sélectionner celui offrant la meilleure performance.
-## Données
+Données
 Le dataset utilisé contient des informations sur les passagers, comme l'âge, le sexe, la classe du billet et le tarif payé. Ces données ont été nettoyées et prétraitées avant d'entraîner les modèles.
-## Modèles Testés
+Modèles Testés
 Nous avons testé plusieurs modèles :
 - **Régression Logistique** - **SVM** - **KNN** - **XGBoost** - **Random Forest**
-## Résultats
+ Résultats
 Le tableau ci-dessous résume les performances des modèles :
 | Modèle                  | Accuracy | Précision | Recall | F1-Score | ROC-AUC |
 |-------------------------|----------|-----------|--------|----------|---------|
@@ -17,9 +17,9 @@ Le tableau ci-dessous résume les performances des modèles :
 | **XGBoost**                | 0.8212   | 0.8088    | 0.7432 | 0.7746   | 0.8907  |
 | **Random Forest**          | 0.8380   | 0.8358    | 0.7568 | 0.7943   | 0.8877  |
 Le **Random Forest** est le modèle le plus performant avec une **accuracy de 83.80%** et un **F1-score de 79.43%**.
-## Prédictions sur de nouvelles données
+ Prédictions sur de nouvelles données
 Le modèle Random Forest a été utilisé pour prédire la survie des passagers sur un dataset test (`test.csv`). Les prédictions sont enregistrées dans un fichier `submission.csv`.
-## Exécution du Projet
+ Exécution du Projet
 **Installation des dépendances :**
 ```bash
 pip install pandas numpy scikit-learn xgboost seaborn matplotlib
