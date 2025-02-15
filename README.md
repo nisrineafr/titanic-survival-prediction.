@@ -22,7 +22,7 @@ Le tableau ci-dessous résume les performances des modèles :
 | **Random Forest**          | 0.8380   | 0.8358    | 0.7568 | 0.7943   | 0.8877  |
 Le **Random Forest** est le modèle le plus performant avec une **accuracy de 83.80%** et un **F1-score de 79.43%**.
 ## Prédictions sur de nouvelles données
-Le modèle Random Forest a été utilisé pour prédire la survie des passagers sur un dataset test (`test.csv`). Les prédictions sont enregistrées dans un fichier `submission.csv`.
+Le modèle Random Forest a été utilisé pour prédire la survie des passagers sur un dataset test (`test.csv`). Les prédictions sont enregistrées dans un fichier `predictions_random_forest.csv`.
 ## Exécution du Projet
 **Installation des dépendances :**
 ```bash
